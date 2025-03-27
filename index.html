@@ -846,13 +846,13 @@
             const whatsappNumber = "+918750956789";
 
             // Construct WhatsApp message
-            const whatsappMessage = `New Transport Request:\n
-1.Loading Location: ${location}
-2.Unloading Location: ${toDestination}
-3.Phone: ${phoneNumber}
-4.Weight: ${materialWeight} kg
-5.Vehicle Type: ${vehicleType}
-6.Date of Dispatch: ${dispatchDate}
+            const whatsappMessage = `NEW TRANSPORT REQUEST:\n\n
+1.Loading Location: ${location}\n
+2.Unloading Location: ${toDestination}\n
+3.Phone: ${phoneNumber}\n
+4.Weight: ${materialWeight} kg\n
+5.Vehicle Type: ${vehicleType}\n
+6.Date of Dispatch: ${dispatchDate}\n
 7.Material: ${typeOfMaterial}`;
 
             const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
